@@ -6,11 +6,7 @@ This repository provides a toolkit for the analysis and control of large-area at
 
 The root directory contains two main folders:
 
-<<<<<<< HEAD
-- **`Analysis Large-Area Automated AFM`**: Contains the primary analysis tools and libraries for processing AFM datasets. The folder includes:
-=======
 - **`Analysis Large-Area AFM`**: Contains the primary analysis tools and libraries for processing AFM datasets. The folder includes:
->>>>>>> 6f2a768 (actualizacion febrero con main)
   - **Analysis Notebook**:
     - **`Analysis.ipynb`**: A Jupyter Notebook that guides users through the analysis workflow. This notebook utilizes functions from the Python scripts in this folder to perform tasks such as stitching, flattening, segmentation, and data export on large-area AFM images.
   - **Python Scripts**: The following scripts serve as modular functions for different stages of the analysis:
@@ -27,11 +23,7 @@ The root directory contains two main folders:
 
 ### Output
 
-<<<<<<< HEAD
-Processed results from the `Analysis Large-Area Automated AFM` notebook and scripts are saved in structured folders generated within the output directory. These may include:
-=======
 Processed results from the `Analysis Large-Area AFM` notebook and scripts are saved in structured folders generated within the output directory. These may include:
->>>>>>> 6f2a768 (actualizacion febrero con main)
 
 - **Stitched Images**: Large, composite images formed from individual AFM tiles.
 - **Flattened Data**: Baseline-corrected images with consistent height normalization.
@@ -47,44 +39,27 @@ Processed results from the `Analysis Large-Area AFM` notebook and scripts are sa
     pip install -r requirements.txt
     ```
 
-<<<<<<< HEAD
-2. **Running the Analysis**: Navigate to `Analysis Large-Area Automated AFM` and open `Analysis.ipynb` in Jupyter Notebook to run the complete analysis pipeline. Follow the steps in the notebook to process AFM datasets from stitching through segmentation and data export.
-
-3. **Using the GUI Application**: The `AppGridWithStage` folder contains a GUI for controlling the AFM microscope. Launch the application to configure grid scans, control stage movement, and acquire images. The acquired data can then be processed using the `Analysis Large-Area Automated AFM` pipeline.
-=======
 2. **Running the Analysis**: Navigate to `Analysis Large-Area AFM` and open `Analysis.ipynb` in Jupyter Notebook to run the complete analysis pipeline. Follow the steps in the notebook to process AFM datasets from stitching through segmentation and data export.
 
 3. **Using the GUI Application**: The `AppGridWithStage` folder contains a GUI for controlling the AFM microscope. Launch the application to configure grid scans, control stage movement, and acquire images. The acquired data can then be processed using the `Analysis Large-Area AFM` pipeline.
->>>>>>> 6f2a768 (actualizacion febrero con main)
 
 ## Citation
 
 If you use this repository for research purposes, please cite the following article:
 
-<<<<<<< HEAD
-> DOI: [10.XXXX/XXXXXX](https://doi.org/10.XXXX/XXXXXX)
-=======
 > DOI: [10.21203/rs.3.rs-5537963/v1](https://doi.org/10.21203/rs.3.rs-5537963/v1)
->>>>>>> 6f2a768 (actualizacion febrero con main)
 
 Proper citation allows us to maintain and further develop this toolkit for the research community.
 
 ## Author
 
 Developed by Ruben Millan-Solsona. For inquiries, contact at [solsonarm@ornl.gov](mailto:solsonarm@ornl.gov).
-<<<<<<< HEAD
-=======
 [Google Scholar](https://scholar.google.com/citations?hl=es&user=zEOJb2cAAAAJ) | [ORCID](https://orcid.org/0000-0003-0912-7246) 
->>>>>>> 6f2a768 (actualizacion febrero con main)
 
 ## Related Work
 
 For more details on the methodology and applications of this toolkit, see our related research article:
-<<<<<<< HEAD
-[Link to Article](https://link-to-article.com)
-=======
 [Link to Article](https://www.researchsquare.com/article/rs-5537963/v1)
->>>>>>> 6f2a768 (actualizacion febrero con main)
 
 ## License
 
