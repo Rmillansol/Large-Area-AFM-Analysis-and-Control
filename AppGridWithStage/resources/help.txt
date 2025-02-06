@@ -1,0 +1,12 @@
+This application allows you to automatically create a grid of images with the
+Nanosurf DriveAFM using the piezo scanner or the motorized station. 
+Based on the window parameters, send the images necessary to make a
+Grid of images with overlap. Control the execution, pause and abort.
+
+Attention!
+------------------------------------------------------------------------------------
+Before making the connection you must start the Studio software, and before 
+launching make sure the laser is aligned, that a reasonable set point has been 
+established and that it is close to the surface of the sample. It is advisable
+to make an image manually to verify that everything works correctly.
+
